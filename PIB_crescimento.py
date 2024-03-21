@@ -143,7 +143,7 @@ for i in range(221,225):
     plt.xticks(rotation=45)
     plt.locator_params(axis='y', nbins=10)
     plt.grid(True)
-plt.savefig(r'C:\Users\caiof\OneDrive\Repositório\PIB_Crescimento\Graficos PIB\Taxa_variacao_PIB')
+plt.savefig(r'Graficos PIB\Taxa_variacao_PIB')
 plt.show()
 
 
@@ -224,7 +224,6 @@ fig_decomposicao = decomposicao[["ano", "Carrego Estatístico", "Crescimento no 
 
 fig_decomposicao.set_xticklabels(fig_decomposicao.get_xticklabels(), rotation=45)
 plt.locator_params(axis='y', nbins=10)
-plt.savefig(r'C:\Users\caiof\OneDrive\Repositório\PIB_Crescimento' \
-            r'\Graficos PIB\PIB - Carrego e Crescimento.png')
+plt.savefig(r'Graficos PIB\PIB - Carrego e Crescimento.png')
 
 plt.show()
