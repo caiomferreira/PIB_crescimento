@@ -143,7 +143,10 @@ for i in range(221,225):
     plt.xticks(rotation=45)
     plt.locator_params(axis='y', nbins=10)
     plt.grid(True)
-plt.savefig(r'Graficos PIB\Taxa_variacao_PIB')
+    
+plt.subplots_adjust(hspace=0.45)  # Ajusta o espaço vertical entre os subplots
+plt.tight_layout()  # Ajusta automaticamente os subplots para evitar sobreposições
+plt.savefig('Taxa_variacao_PIB')
 plt.show()
 
 
@@ -224,6 +227,8 @@ fig_decomposicao = decomposicao[["ano", "Carrego Estatístico", "Crescimento no 
 
 fig_decomposicao.set_xticklabels(fig_decomposicao.get_xticklabels(), rotation=45)
 plt.locator_params(axis='y', nbins=10)
-plt.savefig(r'Graficos PIB\PIB - Carrego e Crescimento.png')
+plt.subplots_adjust(hspace=0.45)  # Ajusta o espaço vertical entre os subplots
+plt.tight_layout()  # Ajusta automaticamente os subplots para evitar sobreposições
+plt.savefig('PIB - Carrego e Crescimento.png')
 
 plt.show()
