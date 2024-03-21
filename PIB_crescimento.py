@@ -228,5 +228,3 @@ plt.savefig(r'C:\Users\caiof\OneDrive\Repositório\PIB_Crescimento' \
             r'\Graficos PIB\PIB - Carrego e Crescimento.png')
 
 plt.show()
-
-#%%
