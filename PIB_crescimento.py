@@ -146,7 +146,7 @@ for i in range(221,225):
     
 plt.subplots_adjust(hspace=0.45)  # Ajusta o espaço vertical entre os subplots
 plt.tight_layout()  # Ajusta automaticamente os subplots para evitar sobreposições
-plt.savefig('Taxa_variacao_PIB')
+plt.savefig('Charts/Taxa_variacao_PIB')
 plt.show()
 
 
@@ -229,6 +229,6 @@ fig_decomposicao.set_xticklabels(fig_decomposicao.get_xticklabels(), rotation=45
 plt.locator_params(axis='y', nbins=10)
 plt.subplots_adjust(hspace=0.45)  # Ajusta o espaço vertical entre os subplots
 plt.tight_layout()  # Ajusta automaticamente os subplots para evitar sobreposições
-plt.savefig('PIB - Carrego e Crescimento.png')
+plt.savefig('Charts/PIB - Carrego e Crescimento.png')
 
 plt.show()
