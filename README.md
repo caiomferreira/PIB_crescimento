@@ -2,4 +2,4 @@ Estudo criado para com as aulas do curso de Conjuntura com Python da Análise Ma
 
 https://analisemacro.com.br/curso/analise-de-conjuntura-usando-python/
 
-![image](https://github.com/caiomferreira/PIB_crescimento/assets/56840305/a01d4cd5-fc5e-485e-baa9-678d8782f711)
+![image](https://github.com/caiomferreira/PIB_crescimento/blob/83aa34ad83463360126de7de6677b50ff2b72b1f/Charts/PIB%20-%20Carrego%20e%20Crescimento.png)
